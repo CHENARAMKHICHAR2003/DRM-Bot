@@ -18,7 +18,7 @@ class Config(object):
     DOWNLOAD_LOCATION = "./DOWNLOADS"
     SESSIONS = "./SESSIONS"
 
-    AUTH_USERS = os.environ.get('AUTH_USERS', '1871785273').split(',')
+    AUTH_USERS = os.environ.get('AUTH_USERS', '902551614').split(',')
     for i in range(len(AUTH_USERS)):
         AUTH_USERS[i] = int(AUTH_USERS[i])
 
@@ -71,7 +71,7 @@ class Msg(object):
 
     CMD_MSG_1 = "`{txt}`\n\n**Total Links in File are :-** {no_of_links}\n\n**Send any Index From `[ 1 - {no_of_links} ]` :-**"
     CMD_MSG_2 = "<b>Uploading :- </b> `{file_name}`"
-    RESTART_MSG = "✅ HI Bhai log\n✅ PATH CLEARED"
+    RESTART_MSG = "✅ HI Bhai log i am 𝘾𝙍 𝘾𝙃𝙊𝙐𝘿𝙃𝘼𝙍𝙔 bot\n✅ PATH CLEARED"
 
 # Prefixes
 prefixes = ["/", "~", "?", "!", "."]
